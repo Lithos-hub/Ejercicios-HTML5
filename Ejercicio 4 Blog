@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Blog Ejercicio 4</title>
+</head>
+<body>
+    <img src="laptop.jpg" width="400"><br>
+    <a href="#titulo">Ir al título</a>
+    <a href="blog">Blog</a>
+    <hr>
+    <h1>Mi blog</h1>
+    <h3>Categorias</h3>
+    <ul>
+        <li><a href="categoria 1">Categoría 1</li>
+        <li><a href="categoria 2">Categoría 2</li>
+        <li><a href="categoria 3">Categoría 3</li>
+    </ul>
+    </a>
+    <h3>Publicación 3</h3>
+    <h6>Publicado el 26 de octubre</h6>
+    <p>
+        El buitre no tiene nada que reprocharse. Los escrúpulos le son ajenas a la pantera negra. No dudan de lo apropiado de sus actos las pirañas.
+        El crótalo se acepta sin complejos a sí mismo. No existe un chacal autocrítico. El tábano, la langosta, la tenia y el caimán
+        viven como viven y así están satisfechos. De cien kilos es el corazón de la orca, pero nada le pesa.
+        Nada más animal que una conciencia limpia en el tercer planeta del Sol.
+    </p>
+    <a href="#titulo">Leer más</a>
+    <hr>
+    <h3>Últimas entradas</h3>
+    <ul>
+        <li><a href="publicación 1">Publicación 1</li>
+        <li><a href="publicación 2">Publicación 2</li>
+        <li><a href="publicación 3">Publicación 3</li>
+    </ul>
+    </a>
+    </body>
+    <br> <br>
+    <p> Copyright &#169;, Mi web</p>
+</body>
+</html>

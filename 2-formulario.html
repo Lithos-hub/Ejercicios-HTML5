@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="/formulario.php" method="POST">
+      <fieldset>
+        <legend>Información personal</legend>
+  
+        <label>Nombre:</label>
+        <input type="text" id="nombre" placeholder="Elon" />
+  
+        <label>Apellido:</label>
+        <input type="text" id="nombre" placeholder="Musk" />
+        
+        <br><br>
+
+        <label>Edad:</label>
+        <input
+          value="40"
+          type="number"
+          name="age"
+          id="número"
+          placeholder="Edad"
+        />
+
+        <br><br>
+  
+        <label>Correo electrónico:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="nombre@email.com"
+        />
+
+        <br><br>
+  
+        <label>Password:</label>
+        <input type="password" name="psw" id="password" placeholder="*******" />
+        
+        <br>
+
+        <fieldset>
+          <legend>Género</legend>
+  
+          <input type="radio" name="gender" value="female" />
+          <label>Mujer</label> <br>
+  
+          <input type="radio" name="gender" value="male" />
+          <label>Hombre</label> <br>
+
+          <input type="radio" name="gender" value="other" />
+          <label>Otro</label> <br>
+        </fieldset>
+      </fieldset>
+
+      <br><br>
+
+      <label>País</label>
+      <input type="text" name="country" placeholder="Introduce tu país" />
+
+      <br><br>
+  
+      <label>Lenguaje de programación:</label>
+      <select value="JavaScript">
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>Java</option>
+        <option>C#</option>
+        <option>C++</option>
+      </select>
+
+      <br><br>
+  
+      <fieldset>
+        <legend>Selecciona tu academia de programación favorita:</legend>
+  
+        <input type="radio" name="academy" value="female" />
+        <label>Code Space Academy</label> <br>
+        <input type="radio" name="academy" value="male" />
+        <label>Academia 2</label> <br>
+        <input type="radio" name="academy" value="other" />
+        <label>Academia 3</label> <br>
+      </fieldset>
+
+      <br><br>
+  
+      <label>
+        <input type="checkbox" name="accept1" value="spam" />
+        Acepto recibir cientos de miles de correos irrelevantes.
+      </label>
+
+      <br>
+
+      <label>
+        <input type="checkbox" name="accept2" value="conditions" />
+        Acepto los términos y condiciones.
+      </label>
+
+      <br><br>
+  
+      <input type="reset" value="Vaciar formulario" />
+      <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>

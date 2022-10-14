@@ -12,9 +12,6 @@
             <tr>
                 <form action="/formulario" method="POST"></form>
                 Nombre:
-                <input value="Elon"type="text" id="nombre" placeholder="Nombre"/>
-
-                Apellido:
                 <input value="Musk"type="text" id="nombre" placeholder="Apellido:"/>
                 <br><br>
                 Edad:
